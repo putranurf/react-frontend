@@ -29,14 +29,14 @@ function UnresolvedTicketsComponent({ containerStyles }) {
     return (
         <CardComponent
             containerStyles={containerStyles}
-            title='Unresolved tickets'
+            title='Status Pengiriman'
             link='View details'
             subtitle='Group:'
             subtitleTwo='Support'
             items={[
-                renderStat('Waiting on Feature Request', 4238),
-                renderStat('Awaiting Customer Response', 1005),
-                renderStat('Awaiting Developer Fix', 914),
+                renderStat('Menunggu Pengiriman', 4238),
+                renderStat('Menunggu Packing Selesai', 1005),
+                renderStat('Menunggu Konfirmasi Pembayaran', 914),
                 renderStat('Pending', 281)
             ]}
         />

@@ -104,7 +104,7 @@ function TasksComponent(props) {
     return (
         <CardComponent
             containerStyles={props.containerStyles}
-            title='Tasks'
+            title='Status'
             link='View all'
             subtitle='Today'
             items={[

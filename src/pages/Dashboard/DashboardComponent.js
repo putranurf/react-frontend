@@ -65,12 +65,12 @@ function DashboardComponent() {
                 >
                     <MiniCardComponent
                         className={classes.miniCardContainer}
-                        title='Unresolved'
+                        title='Produk'
                         value='60'
                     />
                     <MiniCardComponent
                         className={classes.miniCardContainer}
-                        title='Overdue'
+                        title='Kategori'
                         value='16'
                     />
                 </Row>
@@ -83,19 +83,19 @@ function DashboardComponent() {
                 >
                     <MiniCardComponent
                         className={classes.miniCardContainer}
-                        title='Open'
+                        title='User'
                         value='43'
                     />
                     <MiniCardComponent
                         className={classes.miniCardContainer}
-                        title='On hold'
+                        title='Subscribers'
                         value='64'
                     />
                 </Row>
             </Row>
-            <div className={classes.todayTrends}>
+            {/* <div className={classes.todayTrends}>
                 <TodayTrendsComponent />
-            </div>
+            </div> */}
             <Row
                 horizontal='space-between'
                 className={classes.lastRow}
