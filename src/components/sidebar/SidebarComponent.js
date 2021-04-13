@@ -52,7 +52,7 @@ function SidebarComponent() {
                 icon={IconSubscription}
                 onClick={() => onClick(SLUGS.dashboard)}
             />
-            <MenuItem
+            {/* <MenuItem
                 id={SLUGS.overview}
                 items={[SLUGS.overviewTwo, SLUGS.overviewThree]}
                 title='Overview'
@@ -79,14 +79,14 @@ function SidebarComponent() {
                     icon={IconArticles}
                     onClick={() => onClick(SLUGS.overviewThree)}
                 />
-            </MenuItem>
-            <MenuItem
+            </MenuItem> */}
+            {/* <MenuItem
                 id={SLUGS.tickets}
                 title='Tickets'
                 icon={IconTickets}
                 onClick={() => onClick(SLUGS.tickets)}
-            />
-            <MenuItem
+            /> */}
+            {/* <MenuItem
                 id={SLUGS.ideas}
                 items={[SLUGS.ideasTwo, SLUGS.ideasThree]}
                 title='Ideas'
@@ -113,24 +113,30 @@ function SidebarComponent() {
                     icon={IconArticles}
                     onClick={() => onClick(SLUGS.ideasThree)}
                 />
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem
-                id={SLUGS.contacts}
-                title='Contacts'
+                id={SLUGS.produk}
+                title='Produk'
                 icon={IconContacts}
-                onClick={() => onClick(SLUGS.contacts)}
+                onClick={() => onClick(SLUGS.produk)}
             />
             <MenuItem
-                id={SLUGS.agents}
-                title='Agents'
+                id={SLUGS.kategori}
+                title='Kategori'
                 icon={IconAgents}
-                onClick={() => onClick(SLUGS.agents)}
+                onClick={() => onClick(SLUGS.kategori)}
             />
             <MenuItem
-                id={SLUGS.articles}
-                title='Articles'
+                id={SLUGS.user}
+                title='User'
                 icon={IconArticles}
-                onClick={() => onClick(SLUGS.articles)}
+                onClick={() => onClick(SLUGS.user)}
+            />
+            <MenuItem
+                id={SLUGS.voucher}
+                title='Voucher'
+                icon={IconSubscription}
+                onClick={() => onClick(SLUGS.voucher)}
             />
             <MenuItem
                 id={SLUGS.subscription}

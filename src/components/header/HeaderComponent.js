@@ -70,23 +70,26 @@ function HeaderComponent() {
         case currentItem === SLUGS.dashboard:
             title = 'Dashboard';
             break;
-        case [SLUGS.overview, SLUGS.overviewTwo, SLUGS.overviewThree].includes(currentItem):
-            title = 'Overview';
+        // case [SLUGS.overview, SLUGS.overviewTwo, SLUGS.overviewThree].includes(currentItem):
+        //     title = 'Overview';
+        //     break;
+        // case currentItem === SLUGS.tickets:
+        //     title = 'Tickets';
+        //     break;
+        // case [SLUGS.ideas, SLUGS.ideasTwo, SLUGS.ideasThree].includes(currentItem):
+        //     title = 'Ideas';
+        //     break;
+        case currentItem === SLUGS.produk:
+            title = 'Produk';
             break;
-        case currentItem === SLUGS.tickets:
-            title = 'Tickets';
+        case currentItem === SLUGS.kategori:
+            title = 'Kategori';
             break;
-        case [SLUGS.ideas, SLUGS.ideasTwo, SLUGS.ideasThree].includes(currentItem):
-            title = 'Ideas';
+        case currentItem === SLUGS.user:
+            title = 'User';
             break;
-        case currentItem === SLUGS.contacts:
-            title = 'Contacts';
-            break;
-        case currentItem === SLUGS.agents:
-            title = 'Agents';
-            break;
-        case currentItem === SLUGS.articles:
-            title = 'Articles';
+        case currentItem === SLUGS.voucher:
+            title = 'Voucher';
             break;
         case currentItem === SLUGS.subscription:
             title = 'Subscription';
