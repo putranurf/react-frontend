@@ -3,7 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import SLUGS from 'resources/slugs';
 import LoadingComponent from 'components/loading';
 
-const DashboardComponent = lazy(() => import('./dashboard'));
+const DashboardComponent = lazy(() => import('../pages/dashboard'));
 
 function PrivateRoutes() {
     return (
