@@ -5,7 +5,9 @@
     "homepage": "https://llorentegerman.github.io/react-admin-dashboard",
     "dependencies": {
         "@material-ui/core": "^4.11.3",
+        "@material-ui/data-grid": "^4.0.0-alpha.24",
         "@material-ui/icons": "^4.11.2",
+        "material-table": "^1.69.2",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
         "react-burger-menu": "^2.6.13",

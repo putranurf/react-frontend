@@ -4,6 +4,7 @@ import SLUGS from 'resources/slugs';
 import LoadingComponent from 'components/loading';
 
 const DashboardComponent = lazy(() => import('../pages/Dashboard'));
+const ProdukComponent = lazy(() => import('../pages/Produk'));
 
 function PrivateRoutes() {
     return (
@@ -18,7 +19,7 @@ function PrivateRoutes() {
                 <Route exact path={SLUGS.ideasThree} render={() => <div>ideasThree</div>} />
                 <Route exact path={SLUGS.ideas} render={() => <div>ideas</div>} />
                 <Route exact path={SLUGS.contacts} render={() => <div>contacts</div>} /> */}
-                <Route exact path={SLUGS.produk} render={() => <div>Produk</div>} />
+                <Route exact path={SLUGS.produk} component={ProdukComponent} />
                 <Route exact path={SLUGS.kategori} render={() => <div>Kategori</div>} />
                 <Route exact path={SLUGS.user} render={() => <div>User</div>} />
                 <Route exact path={SLUGS.voucher} render={() => <div>Voucher</div>} />
