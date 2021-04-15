@@ -8,7 +8,7 @@ const useStyles = createUseStyles((theme) => ({
     arrowContainer: {
         position: 'absolute',
         top: -19,
-        right: 15
+        right: 15,
     },
     dropdownButton: {
         alignItems: 'center',
@@ -17,10 +17,10 @@ const useStyles = createUseStyles((theme) => ({
         cursor: 'pointer',
         display: 'flex',
         padding: 0,
-        outline: 'none'
+        outline: 'none',
     },
     dropdownContainer: {
-        position: 'relative'
+        position: 'relative',
     },
     dropdownItemsContainer: {
         background: 'white',
@@ -36,7 +36,8 @@ const useStyles = createUseStyles((theme) => ({
         left: ({ position }) => position.left,
         '& button:first-of-type:hover div > svg > path': {
             fill: theme.color.paleBlue
-        }
+        },
+        zIndex: 1
     },
     dropdownItem: {
         cursor: 'pointer',
@@ -60,7 +61,8 @@ const useStyles = createUseStyles((theme) => ({
         '&:last-child:after': {
             content: '',
             display: 'none'
-        }
+        },
+        
     }
 }));
 

@@ -91,6 +91,15 @@ function HeaderComponent() {
         case currentItem === SLUGS.voucher:
             title = 'Voucher';
             break;
+        case currentItem === SLUGS.pesanan:
+            title = 'Pesanan';
+            break;
+        case currentItem === SLUGS.tracking:
+            title = 'Tracking';
+            break;
+        case currentItem === SLUGS.payment:
+            title = 'Payment';
+            break;
         case currentItem === SLUGS.subscription:
             title = 'Subscription';
             break;

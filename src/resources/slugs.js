@@ -13,8 +13,13 @@ export default {
     user: '/user',
     voucher: '/voucher',
     subscription: '/subscription',
+    pesanan: '/pesanan',
+    tracking: '/tracking',
+    payment: '/payment',
     settings: '/settings',
-    // auth
+
+
+    //----AUTH----//    
     login: '/login',
     signup: '/signup',
     forgotPassword: '/forgot_password'

@@ -139,6 +139,24 @@ function SidebarComponent() {
                 onClick={() => onClick(SLUGS.voucher)}
             />
             <MenuItem
+                id={SLUGS.pesanan}
+                title='Pesanan'
+                icon={IconSubscription}
+                onClick={() => onClick(SLUGS.pesanan)}
+            />
+            <MenuItem
+                id={SLUGS.tracking}
+                title='Tracking'
+                icon={IconSubscription}
+                onClick={() => onClick(SLUGS.tracking)}
+            />
+            <MenuItem
+                id={SLUGS.payment}
+                title='Payment'
+                icon={IconSubscription}
+                onClick={() => onClick(SLUGS.payment)}
+            />
+            <MenuItem
                 id={SLUGS.subscription}
                 title='Subscription'
                 icon={IconSubscription}

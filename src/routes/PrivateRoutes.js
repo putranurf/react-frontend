@@ -5,6 +5,7 @@ import LoadingComponent from 'components/loading';
 
 const DashboardComponent = lazy(() => import('../pages/Dashboard'));
 const ProdukComponent = lazy(() => import('../pages/Produk'));
+const PesananComponent = lazy(() => import('../pages/Pesanan'));
 
 function PrivateRoutes() {
     return (
@@ -23,6 +24,9 @@ function PrivateRoutes() {
                 <Route exact path={SLUGS.kategori} render={() => <div>Kategori</div>} />
                 <Route exact path={SLUGS.user} render={() => <div>User</div>} />
                 <Route exact path={SLUGS.voucher} render={() => <div>Voucher</div>} />
+                <Route exact path={SLUGS.pesanan} component={PesananComponent} />
+                <Route exact path={SLUGS.tracking} render={() => <div>Tracking</div>} />
+                <Route exact path={SLUGS.payment} render={() => <div>Payment</div>} />
                 <Route exact path={SLUGS.subscription} render={() => <div>subscription</div>} />
                 <Redirect to={SLUGS.dashboard} />
             </Switch>
